@@ -47,7 +47,7 @@ const Hero = ({ variant = "a" }: HeroProps) => {
             <div className="flex items-center gap-4">
               <img src={hubLogo} alt="Hub Business" className="h-24 w-auto drop-shadow-2xl" />
               <span className="text-base text-slate-300">
-                • Mentorias com mentores de mercado
+                • Transforme estratégia em resultado real
               </span>
             </div>
 
