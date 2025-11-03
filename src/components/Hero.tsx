@@ -9,7 +9,7 @@ interface HeroProps {
 
 const Hero = ({ variant = "a" }: HeroProps) => {
   const whatsappLink =
-    "https://wa.me/5562983273456?text=Quero%20saber%20mais%20sobre%20a%20Mentoria%20de%20Gest%C3%A3o%20Estrat%C3%A9gica%202026";
+    "https://wa.me/5562996557262?text=Quero%20saber%20mais%20sobre%20a%20Mentoria%20de%20Gest%C3%A3o%20Estrat%C3%A9gica%202026";
 
   const variantA = {
     title: "Planejamento Estratégico 2026, do papel à execução.",
