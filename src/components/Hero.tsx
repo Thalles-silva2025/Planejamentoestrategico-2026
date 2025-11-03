@@ -44,11 +44,11 @@ const Hero = ({ variant = "a" }: HeroProps) => {
           {/* Left Content */}
           <div className="space-y-8 animate-fade-in">
             {/* Logo */}
-            <div className="flex items-center gap-4">
-              <img src={hubLogo} alt="Hub Business" className="h-24 w-auto drop-shadow-2xl" />
-              <span className="text-base text-slate-300">
-                • Mentorias com mentores de mercado
-              </span>
+            <div className="flex flex-col gap-4">
+              <img src={hubLogo} alt="Hub Business" className="h-36 w-auto drop-shadow-2xl" />
+              <p className="text-lg text-slate-300 font-medium">
+                Transformamos empreendedores normais em gestores profissionais
+              </p>
             </div>
 
             <div className="space-y-6">

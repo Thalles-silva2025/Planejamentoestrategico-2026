@@ -15,7 +15,7 @@ const FAQ = () => {
     {
       question: "Qual é o formato: presencial ou online?",
       answer:
-        "A mentoria é realizada de forma online, com sessões práticas e interativas. Você recebe todo o material digital e tem acesso às gravações para revisitar quando precisar.",
+        "A mentoria é 100% presencial, com sessões práticas e interativas. Você terá a experiência completa de networking e aprendizado ao vivo com Jacque Gomes.",
     },
     {
       question: "Para qual perfil de empresa é indicado?",
@@ -25,7 +25,7 @@ const FAQ = () => {
     {
       question: "As sessões ficam gravadas?",
       answer:
-        "Sim, todas as sessões são gravadas e disponibilizadas para que você possa revisar os conceitos e aplicar os frameworks no seu próprio ritmo.",
+        "Não. Por ser uma mentoria presencial e com vagas limitadas, as sessões não são gravadas. Isso garante um ambiente de confiança e troca genuína entre os participantes.",
     },
     {
       question: "Há suporte entre as sessões?",
