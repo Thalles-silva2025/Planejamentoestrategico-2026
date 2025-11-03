@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import jacqueSpeaking from "@/assets/jacque-speaking-blue.jpg";
+import jacqueSpeaking from "@/assets/jacque-3.jpg";
 
 const FinalCTA = () => {
   const whatsappLink =

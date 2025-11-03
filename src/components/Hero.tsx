@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
-import jacqueHero from "@/assets/jacque-hero.jpg";
+import jacqueHero from "@/assets/jacque-2.jpg";
 import hubLogo from "@/assets/hub-logo.png";
 
 interface HeroProps {
@@ -26,7 +26,7 @@ const Hero = ({ variant = "a" }: HeroProps) => {
   const content = variant === "a" ? variantA : variantB;
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-secondary/30 to-background">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/5 via-background to-primary/10">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
@@ -40,9 +40,9 @@ const Hero = ({ variant = "a" }: HeroProps) => {
           {/* Left Content */}
           <div className="space-y-8 animate-fade-in">
             {/* Logo */}
-            <div className="flex items-center gap-2">
-              <img src={hubLogo} alt="Hub Business" className="h-8 w-auto" />
-              <span className="text-sm text-muted-foreground">
+            <div className="flex items-center gap-3">
+              <img src={hubLogo} alt="Hub Business" className="h-16 w-auto" />
+              <span className="text-base text-muted-foreground">
                 • Mentorias com mentores de mercado
               </span>
             </div>

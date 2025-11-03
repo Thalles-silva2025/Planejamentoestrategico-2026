@@ -39,8 +39,13 @@ const Outcomes = () => {
   ];
 
   return (
-    <section className="py-24 bg-background">
-      <div className="container mx-auto px-4">
+    <section className="py-24 bg-gradient-to-b from-secondary/30 via-background to-primary/5 relative overflow-hidden">
+      {/* Background decorative elements */}
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute top-20 right-10 w-96 h-96 bg-primary rounded-full blur-3xl" />
+        <div className="absolute bottom-20 left-10 w-96 h-96 bg-accent rounded-full blur-3xl" />
+      </div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-16 space-y-4">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
             O que você leva

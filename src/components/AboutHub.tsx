@@ -22,8 +22,16 @@ const AboutHub = () => {
   ];
 
   return (
-    <section className="py-24 bg-secondary/50">
-      <div className="container mx-auto px-4">
+    <section className="py-24 bg-gradient-to-b from-background via-primary/5 to-secondary/30 relative overflow-hidden">
+      {/* Background pattern */}
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0" style={{
+          backgroundImage: `linear-gradient(45deg, hsl(var(--primary)) 25%, transparent 25%), linear-gradient(-45deg, hsl(var(--primary)) 25%, transparent 25%), linear-gradient(45deg, transparent 75%, hsl(var(--primary)) 75%), linear-gradient(-45deg, transparent 75%, hsl(var(--primary)) 75%)`,
+          backgroundSize: '20px 20px',
+          backgroundPosition: '0 0, 0 10px, 10px -10px, -10px 0px'
+        }} />
+      </div>
+      <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-16 space-y-6">

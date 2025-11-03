@@ -31,7 +31,7 @@ const TargetAudience = () => {
   ];
 
   return (
-    <section className="py-24 bg-secondary/50">
+    <section className="py-24 bg-gradient-to-b from-background via-accent/5 to-secondary/30">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16 space-y-4">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">

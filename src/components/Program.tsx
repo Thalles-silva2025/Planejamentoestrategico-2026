@@ -42,7 +42,7 @@ const Program = () => {
   ];
 
   return (
-    <section id="programa" className="py-24 bg-secondary/50">
+    <section id="programa" className="py-24 bg-gradient-to-b from-primary/5 via-secondary/40 to-background">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center mb-16 space-y-4">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">

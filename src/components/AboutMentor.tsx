@@ -1,8 +1,8 @@
-import jacqueProfessional from "@/assets/jacque-professional.jpg";
+import jacqueProfessional from "@/assets/jacque-1.jpg";
 
 const AboutMentor = () => {
   return (
-    <section className="py-24 bg-background">
+    <section className="py-24 bg-gradient-to-b from-background via-primary/5 to-background">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
