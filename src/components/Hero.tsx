@@ -14,7 +14,7 @@ const Hero = ({ variant = "a" }: HeroProps) => {
   const variantA = {
     title: "Planejamento Estratégico 2026, do papel à execução.",
     subtitle:
-      "Três encontros práticos com Jacque Gomes (CEO da Persiflex) para sair com seu plano 2026 pronto e 90 dias de ação definidos.",
+      "Três encontros práticos com Jacque Gomes (Multi Empresária) para sair com seu plano 2026 pronto e 90 dias de ação definidos.",
   };
 
   const variantB = {
@@ -109,7 +109,7 @@ const Hero = ({ variant = "a" }: HeroProps) => {
             <div className="relative rounded-3xl overflow-hidden shadow-card">
               <img
                 src={jacqueHero}
-                alt="Jacque Gomes - CEO da Persiflex"
+                alt="Jacque Gomes - Multi Empresária"
                 className="w-full h-auto object-cover"
                 loading="eager"
               />

@@ -11,7 +11,7 @@ const AboutMentor = () => {
               <div className="relative rounded-3xl overflow-hidden shadow-card">
                 <img
                   src={jacqueProfessional}
-                  alt="Jacque Gomes - CEO da Persiflex"
+                  alt="Jacque Gomes - Multi Empresária"
                   className="w-full h-auto object-cover"
                   loading="lazy"
                 />
@@ -28,13 +28,13 @@ const AboutMentor = () => {
                   Jacque Gomes
                 </h3>
                 <p className="text-lg text-muted-foreground">
-                  CEO da Persiflex
+                  Multi Empresária
                 </p>
               </div>
 
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Jacque Gomes é CEO da Persiflex e especialista em planejamento
+                  Jacque Gomes é multi empresária e especialista em planejamento
                   estratégico e execução com foco em resultados. Com anos de
                   experiência liderando empresas e transformando planejamentos em
                   realidade, ela desenvolveu uma metodologia prática que une
