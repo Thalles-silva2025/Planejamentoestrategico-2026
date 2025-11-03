@@ -26,32 +26,36 @@ const Hero = ({ variant = "a" }: HeroProps) => {
   const content = variant === "a" ? variantA : variantB;
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-primary/5 via-background to-primary/10">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-5">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
+      {/* Modern Grid Pattern */}
+      <div className="absolute inset-0 opacity-[0.03]">
         <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 1px 1px, hsl(var(--primary)) 1px, transparent 0)`,
-          backgroundSize: '40px 40px'
+          backgroundImage: `linear-gradient(hsl(var(--primary)) 1px, transparent 1px), linear-gradient(90deg, hsl(var(--primary)) 1px, transparent 1px)`,
+          backgroundSize: '60px 60px'
         }} />
       </div>
+      
+      {/* Gradient Orbs */}
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/10 rounded-full blur-[120px]" />
+      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-blue-600/10 rounded-full blur-[120px]" />
 
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-8 animate-fade-in">
             {/* Logo */}
-            <div className="flex items-center gap-3">
-              <img src={hubLogo} alt="Hub Business" className="h-16 w-auto" />
-              <span className="text-base text-muted-foreground">
+            <div className="flex items-center gap-4">
+              <img src={hubLogo} alt="Hub Business" className="h-24 w-auto drop-shadow-2xl" />
+              <span className="text-base text-slate-300">
                 • Mentorias com mentores de mercado
               </span>
             </div>
 
             <div className="space-y-6">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white">
                 {content.title}
               </h1>
-              <p className="text-xl text-muted-foreground leading-relaxed">
+              <p className="text-xl text-slate-300 leading-relaxed">
                 {content.subtitle}
               </p>
             </div>
@@ -65,7 +69,7 @@ const Hero = ({ variant = "a" }: HeroProps) => {
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-3">
                   <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-0.5" />
-                  <span className="text-foreground">{item}</span>
+                  <span className="text-slate-200">{item}</span>
                 </div>
               ))}
             </div>
@@ -95,7 +99,7 @@ const Hero = ({ variant = "a" }: HeroProps) => {
             </div>
 
             {/* Trust Badge */}
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-slate-400">
               Mentoria prática, com entrega real.
             </p>
           </div>
@@ -113,11 +117,11 @@ const Hero = ({ variant = "a" }: HeroProps) => {
             </div>
 
             {/* Floating Card */}
-            <div className="absolute -bottom-6 -left-6 bg-card p-6 rounded-2xl shadow-elegant border border-border max-w-xs">
-              <p className="text-sm font-medium text-foreground">
+            <div className="absolute -bottom-6 -left-6 bg-slate-900/80 backdrop-blur-xl p-6 rounded-2xl shadow-elegant border border-slate-700 max-w-xs">
+              <p className="text-sm font-medium text-white">
                 "Transformamos empreendedores normais em empresários profissionais."
               </p>
-              <p className="text-xs text-muted-foreground mt-2">Hub Business</p>
+              <p className="text-xs text-slate-400 mt-2">Hub Business</p>
             </div>
           </div>
         </div>

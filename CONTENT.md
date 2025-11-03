@@ -91,34 +91,37 @@ Mentoria prática, com entrega real.
 
 **Título:** Programa: 3 Encontros Práticos
 
-**Subtítulo:** Cada sessão te aproxima do seu plano 2026 completo
+**Subtítulo:** Desenvolvimento de pensamento estratégico e planejamento eficaz para o crescimento sustentável da sua empresa
 
-### Mentoria 1: Diagnóstico + Direcionadores 2026
+### Mentoria 1: Análise de Mercado e Oportunidades
+**Data:** 1º de Dezembro
 **Duração:** 3 horas
 
 **Entregáveis:**
-- Análise do contexto atual e lições de 2025
-- Definição de posicionamento estratégico
-- Macro-metas e constraints mapeados
-- Template de direcionadores preenchido
+- Análise profunda do mercado e concorrência
+- Identificação de oportunidades de crescimento
+- Diagnóstico do contexto atual da empresa
+- Mapeamento de forças e fraquezas estratégicas
 
-### Mentoria 2: Portfólio de Iniciativas + Priorização
+### Mentoria 2: Definição de Metas e Planejamento
+**Data:** 8 de Dezembro
 **Duração:** 3 horas
 
 **Entregáveis:**
-- Lista completa de iniciativas estratégicas
-- Matriz de priorização (esforço vs. impacto)
-- OKRs definidos por área
-- KPIs e metas quantificadas
+- Definição de metas claras e mensuráveis para 2026
+- Desenvolvimento do pensamento estratégico
+- Criação de plano estratégico robusto
+- Alinhamento de objetivos e prioridades
 
-### Mentoria 3: Plano de Ação 90 dias
+### Mentoria 3: Plano de Crescimento Sustentável
+**Data:** 15 de Dezembro
 **Duração:** 3 horas
 
 **Entregáveis:**
-- Agenda de execução semanal
-- Rituais de gestão estabelecidos
-- Dashboards e kill rules definidos
-- Plano completo de implementação
+- Roadmap completo de crescimento sustentável
+- Estratégias de implementação eficaz
+- Capacitação para execução do plano
+- Framework para monitoramento contínuo
 
 ---
 

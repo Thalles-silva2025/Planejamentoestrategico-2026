@@ -8,35 +8,38 @@ const Program = () => {
   const meetings = [
     {
       number: "01",
-      title: "Diagnóstico + Direcionadores 2026",
+      date: "1º de Dezembro",
+      title: "Análise de Mercado e Oportunidades",
       duration: "3 horas",
       deliverables: [
-        "Análise do contexto atual e lições de 2025",
-        "Definição de posicionamento estratégico",
-        "Macro-metas e constraints mapeados",
-        "Template de direcionadores preenchido",
+        "Análise profunda do mercado e concorrência",
+        "Identificação de oportunidades de crescimento",
+        "Diagnóstico do contexto atual da empresa",
+        "Mapeamento de forças e fraquezas estratégicas",
       ],
     },
     {
       number: "02",
-      title: "Portfólio de Iniciativas + Priorização",
+      date: "8 de Dezembro",
+      title: "Definição de Metas e Planejamento",
       duration: "3 horas",
       deliverables: [
-        "Lista completa de iniciativas estratégicas",
-        "Matriz de priorização (esforço vs. impacto)",
-        "OKRs definidos por área",
-        "KPIs e metas quantificadas",
+        "Definição de metas claras e mensuráveis para 2026",
+        "Desenvolvimento do pensamento estratégico",
+        "Criação de plano estratégico robusto",
+        "Alinhamento de objetivos e prioridades",
       ],
     },
     {
       number: "03",
-      title: "Plano de Ação 90 dias",
+      date: "15 de Dezembro",
+      title: "Plano de Crescimento Sustentável",
       duration: "3 horas",
       deliverables: [
-        "Agenda de execução semanal",
-        "Rituais de gestão estabelecidos",
-        "Dashboards e kill rules definidos",
-        "Plano completo de implementação",
+        "Roadmap completo de crescimento sustentável",
+        "Estratégias de implementação eficaz",
+        "Capacitação para execução do plano",
+        "Framework para monitoramento contínuo",
       ],
     },
   ];
@@ -70,13 +73,18 @@ const Program = () => {
                 {/* Content */}
                 <div className="flex-1 space-y-4">
                   <div className="space-y-2">
-                    <div className="flex items-center gap-3">
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-3">
                       <h3 className="text-2xl font-semibold text-foreground">
                         {meeting.title}
                       </h3>
-                      <span className="text-sm text-muted-foreground px-3 py-1 bg-secondary rounded-full">
-                        {meeting.duration}
-                      </span>
+                      <div className="flex gap-2">
+                        <span className="text-xs font-medium text-primary px-3 py-1 bg-primary/10 rounded-full border border-primary/20">
+                          {meeting.date}
+                        </span>
+                        <span className="text-xs text-muted-foreground px-3 py-1 bg-secondary rounded-full">
+                          {meeting.duration}
+                        </span>
+                      </div>
                     </div>
                   </div>
 
