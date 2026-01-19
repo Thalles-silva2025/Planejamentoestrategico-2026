@@ -79,10 +79,16 @@ const Hero = ({ variant = "a" }: HeroProps) => {
               <Button
                 size="lg"
                 className="text-lg h-14 px-8 shadow-elegant hover:shadow-xl transition-all"
-                onClick={() => window.open(whatsappLink, "_blank")}
+                asChild
               >
-                Falar no WhatsApp
-                <ArrowRight className="ml-2 h-5 w-5" />
+                <a
+                  href={whatsappLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Falar no WhatsApp
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </a>
               </Button>
               <Button
                 size="lg"
